@@ -27,8 +27,8 @@ export async function connectMCP() {
     env: process.env as any,
     args: [
       '/Users/yurys/playwright-mcp/cli.js',
-      '--browser=chrome-canary',
-      '--extension'
+      // '--browser=chrome-canary',
+      // '--extension'
       // '--browser=chromium',
       // '--no-sandbox',
       // '--isolated',
